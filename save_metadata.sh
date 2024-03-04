@@ -87,7 +87,7 @@ save_metadata() {
 files="$(find "$SAVE_DIR" -type f ! -name '.DS_Store')"
 
 if [ -z "$files" ]; then
-    echo "Error: Save directory is empty!"
+    echo "Error: Save directory is empty!" 1>&2
     exit 1
 fi
 
