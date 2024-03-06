@@ -1,0 +1,7 @@
+.DS_Store
+token.txt
+__pycache__/
+data/*
+!data/.gitkeep
+static/*
+!static/robots.txt
